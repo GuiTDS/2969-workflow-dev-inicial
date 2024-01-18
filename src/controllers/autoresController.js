@@ -1,5 +1,4 @@
 import Autor from '../models/autor.js';
-import knex from 'knex';
 
 class AutoresController {
   static listarAutores = async (_, res) => {
